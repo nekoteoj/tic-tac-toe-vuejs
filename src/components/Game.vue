@@ -38,7 +38,6 @@ export default class Game extends Vue {
     return 'Next player: ' + (this.xIsNext ? 'X' : 'O');
   }
 
-
   private get current(): Squares {
     return this.history[this.stepNumber];
   }

@@ -23,7 +23,6 @@ import Square from './Square.vue';
 })
 export default class Board extends Vue {
   @Prop({ default: Array(9).fill('') }) private squares!: string[];
-  private xIsNext = true;
 
   @Emit('square-clicked')
   private squareClicked(i: number): number {
