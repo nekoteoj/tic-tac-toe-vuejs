@@ -12,9 +12,9 @@ export default class Square extends Vue {
   @Prop({ default: '' }) private value!: number;
   @Prop({ default: '' }) private content!: string;
 
-  @Emit()
-  private squareClicked(): number {
-    return Number(this.value);
+  @Emit('square-clicked')
+  private squareClicked() {
+    return;
   }
 }
 </script>
