@@ -1,4 +1,4 @@
-# tic-tac-toe
+# React's Tic Tac Toe tutorial with Vue.js + Typescript
 
 ## Project setup
 ```
